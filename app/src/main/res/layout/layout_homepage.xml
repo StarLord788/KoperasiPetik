@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+
+    <TextView
+        android:id="@+id/textMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@android:color/black"
+        android:text="Silahkan Pilih Menu"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="40sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btnInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textMenu"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/holo_red_light"
+        android:text="Input"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/btnHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnInput"
+        android:layout_marginTop="40dp"
+        android:text="History"
+        android:textSize="40sp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_red_light"
+        android:background="@android:color/holo_orange_light"
+        android:layout_marginLeft="30dp"/>
+
+</RelativeLayout>
